@@ -1,0 +1,14 @@
+regCenter:
+  serverList: 192.168.91.130:2181,192.168.91.139:2181,192.168.91.140:2181
+  namespace: elastic-job-lite-springboot4
+  
+  
+dataflowJob:
+  cron: 0 */1 * * * ?
+  shardingTotalCount: 3
+  shardingItemParameters: 0=Beijing,1=Shanghai,2=Guangzhou
+  overWrite: true
+
+spring:
+  profiles:
+    active: dev
