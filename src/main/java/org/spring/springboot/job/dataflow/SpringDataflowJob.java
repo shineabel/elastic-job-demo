@@ -5,6 +5,7 @@ import java.util.List;
 
 import org.spring.springboot.job.entity.Foo;
 import org.spring.springboot.job.repository.FooMapper;
+import org.spring.springboot.job.utils.MixUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import com.dangdang.ddframe.job.api.ShardingContext;

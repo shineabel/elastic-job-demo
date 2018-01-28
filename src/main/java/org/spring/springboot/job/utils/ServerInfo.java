@@ -1,4 +1,4 @@
-package org.spring.springboot.job.dataflow;
+package org.spring.springboot.job.utils;
 
 public class ServerInfo {
 
