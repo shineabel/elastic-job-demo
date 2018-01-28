@@ -1,10 +1,10 @@
 
-package org.spring.springboot.dangdang.ddframe.job.example.job.dataflow;
+package org.spring.springboot.job.dataflow;
 
 import java.util.List;
 
-import org.spring.springboot.dangdang.ddframe.job.example.fixture.entity.Foo;
-import org.spring.springboot.dangdang.ddframe.job.example.fixture.repository.FooMapper;
+import org.spring.springboot.job.entity.Foo;
+import org.spring.springboot.job.repository.FooMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import com.dangdang.ddframe.job.api.ShardingContext;

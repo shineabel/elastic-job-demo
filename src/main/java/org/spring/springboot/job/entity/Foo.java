@@ -1,5 +1,5 @@
 
-package org.spring.springboot.dangdang.ddframe.job.example.fixture.entity;
+package org.spring.springboot.job.entity;
 
 import java.io.Serializable;
 

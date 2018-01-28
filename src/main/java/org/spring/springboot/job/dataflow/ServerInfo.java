@@ -1,5 +1,4 @@
-// Copyright 2017 www.chinaleaf.net All rights reserved.
-package org.spring.springboot.dangdang.ddframe.job.example.job.dataflow;
+package org.spring.springboot.job.dataflow;
 
 public class ServerInfo {
 
